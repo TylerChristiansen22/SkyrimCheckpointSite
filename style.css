@@ -20,9 +20,25 @@ body {
     .backdrop {
         background-image: none;
     }
+
+    .beFree {
+        position: sticky;
+    }
+
+    .papa {
+        position: sticky;
+    }
 }
 
 .customPadding {
     margin-left: 10%;
     padding-right: 25%;
+}
+
+.beFree {
+    position: absolute;
+}
+
+.papa {
+    position: relative;
 }
