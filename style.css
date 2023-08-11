@@ -16,19 +16,6 @@ body {
     height: 100%;
 }
 
-@media(max-width:768px) {
-    .backdrop {
-        background-image: none;
-    }
-
-    .beFree {
-        position: sticky;
-    }
-
-    .papa {
-        position: sticky;
-    }
-}
 
 .customPadding {
     margin-left: 10%;
@@ -42,3 +29,27 @@ body {
 .papa {
     position: relative;
 }
+
+.map {
+    width: 400px;
+}
+
+@media(max-width:768px) {
+    .backdrop {
+        background-image: none;
+    }
+
+    .beFree {
+        position: static;
+    }
+
+    .papa {
+        position: static;
+    }
+
+    .map {
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) {}
