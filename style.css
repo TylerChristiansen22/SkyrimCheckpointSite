@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+}
+
+.logoSize {
+    height: 100px;
+}
+
+.backdrop {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxJmJEDgkNqdHv9Q_K0-k8dTHzaH38562BEQ&usqp=CAU);
+    background-size: cover;
+    background-position: top;
+}
+
+.backdropSize {
+    width: 100%;
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .backdrop {
+        background-image: none;
+    }
+}
+
+.customPadding {
+    margin-left: 10%;
+    padding-right: 25%;
+}
