@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap">
     <link rel="stylesheet" href="style.css">
     <title>Skyrim Site</title>
 </head>
 
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid sticky-top">
         <!-- Top of Site, contains logo and site name -->
-        <section class="row bg-black sticky-top">
+        <section class="row bg-black">
             <div class="col-12 d-flex align-items-center">
                 <img class="logoSize"
                     src="data:image/jpeg;base64,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"
@@ -21,6 +22,9 @@
                 <h3>Skyrim Site</h3>
             </div>
         </section>
+    </header>
+    <!-- placeholder image area -->
+    <main class="container-fluid">
         <!-- background image and contact info box -->
         <section class="row bg-secondary">
             <div class="col-12 backdrop backdropSize">
@@ -54,7 +58,7 @@
             </div>
         </section>
         <!-- section below background image (has Spilled out card) -->
-        <section class="row bg-black">
+        <section class="row bg-black pb-3">
             <div class="col-12 col-md-5 order-1 order-md-0">
                 <h1 class="bg-white mt-5">FUS RO DAHHHHHHHHHHHH</h1>
                 <div class="row">
@@ -62,13 +66,13 @@
                         <h1 class="bg-white"> Next Line of text</h1>
                     </div>
                 </div>
-                <div>
+                <div class="py-1">
                     <span class="bg-white"> Lorem, ipsum dolor sit amet consectetur adipisicing</span>
                 </div>
-                <div>
+                <div class="py-1">
                     <span class="bg-white"> Lorem, ipsum dolor sit amet consectetur adipisicing</span>
                 </div>
-                <div>
+                <div class="py-1">
                     <span class="bg-white"> Lorem, ipsum dolor sit amet consectetur adipisicing</span>
                 </div>
             </div>
@@ -97,9 +101,6 @@
                 </div>
             </div>
         </section>
-    </header>
-    <!-- placeholder image area -->
-    <main class="container-fluid">
         <section class="row">
             <div class="col-12 col-md-4 m-md-5">
                 <img class="map" src="https://e0.pxfuel.com/wallpapers/225/83/desktop-wallpaper-skyrim-map.jpg"
@@ -119,27 +120,27 @@
         </section>
         <!-- customer review section -->
         <section class="row justify-content-around text-center bg-dark">
-            <div class="col-12 col-md-3 px-5 order-1 order-md-0 py-5">
+            <div class="col-12 col-md-3 p-5 order-1 order-md-0">
                 <h4 class="bg-white mt-2">"Big ol' white box Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Quisquam quaerat quod ab dolore"</h4>
             </div>
-            <div class="col-12 col-md-3 px-5 order-0 order-md-2">
+            <div class="col-12 col-md-3 p-5 order-0 order-md-2">
                 <i class="mdi mdi-star-circle bg-white fs-1"></i><i class="mdi mdi-star-circle bg-white fs-1"></i><i
                     class="mdi mdi-star-circle bg-white fs-1"></i>
-                <h4 class="bg-white">"Big ol' white box Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                <h4 class="bg-white mt-2">"Big ol' white box Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Quisquam quaerat quod ab dolore"</h4>
             </div>
-            <div class="col-12 col-md-3 px-5 order-2 order-md-3 py-5">
+            <div class="col-12 col-md-3 p-5 order-2 order-md-3">
                 <h4 class="bg-white mt-2">"Big ol' white box Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Quisquam quaerat quod ab dolore"</h4>
             </div>
         </section>
         <!-- last section before footer -->
-        <section class="row bg-dark">
-            <div class="col-12 col-md-8 bg-white mx-3 mt-3">
+        <section class="row bg-dark px-5">
+            <div class="col-12 col-md-8 bg-white mt-3 mx-md-3">
                 <h1>Test Text</h1>
             </div>
-            <div class="col-12 col-md-10 bg-white mx-3 mt-3">
+            <div class="col-12 col-md-10 bg-white mt-3 mx-md-3">
                 <h6>Test Text</h6>
             </div>
         </section>
